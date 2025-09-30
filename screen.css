@@ -1,0 +1,905 @@
+/*=====Phones=====*/
+
+@media screen and (min-width: 278px) and (max-width: 385px) {
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  
+  header{
+    width: 100vw;
+    padding: 0;
+    justify-content: space-between;
+    position: fixed;
+
+    .logo{
+        width: 50%;
+        padding: 10px;
+
+        .title h4{
+            font-size: 1.2rem;
+        }
+
+        .title i{
+            display: none;
+        }
+
+        .title hr{
+            margin: 3px 0;
+        }
+
+        .social{
+            padding: 5px;
+        }
+
+        .social a i{
+            font-size: 1rem;
+        }
+    }
+  }
+
+  .nav-toggle{
+    display: block;
+    margin-right: 10px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    display: none;
+    padding: 0;
+    width: 100vw;
+    text-align: left;
+    background: rgba(6, 184, 243, 0.856);
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .nav-links li{
+    width: 100%;
+    display: flex;
+    padding: 0;
+  }
+
+    .nav-links a.active,
+    .nav-links a:hover {
+        background: white;
+    color: #008080;
+    border-bottom: none;
+    }
+  /* hero section */
+
+  .container{
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-body{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -20px;
+    align-items: center;
+
+    .image{
+        width: 180px;
+        height: 180px;
+        margin-top: 0;
+    }
+
+    .hero-content h1{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .hero-content h4{
+        font-size:1.4rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .hero-content .buttons{
+        display: flex;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+
+        a.btn{
+            font-size: 1rem;
+            padding: 3px 10px;
+            font-weight: normal;
+        }
+    }
+  }
+
+  /* About Section */
+  
+  .about-section{
+    height: fit-content;
+    padding-top: 40px;
+  }
+
+  .about-content{
+    display: block;
+
+    .about-card{
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .img .text p{
+            font-size: 0.8rem;
+        }
+    }
+  }
+
+  .about-section .serve{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    box-shadow: none;
+    border: none;
+
+    .services{
+        width: 100%;
+        border: none;
+    }
+  }
+
+  /* projects */
+
+  #projects{
+    height: fit-content;
+  }
+
+  #projects h2{
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .project-container{
+    padding: 10px;
+  }
+
+  .project-cards{
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .project-card{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 340px;
+  }
+
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
+  }
+
+  .project-card .card-body p{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.6rem;
+  }
+
+  /* contact section */
+
+  .contact-section {
+    height: fit-content;
+    padding: 0;
+    padding-top: 80px;
+  }
+
+  .contact-card{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    .contact-left {
+        clip-path: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;;
+
+        h2{
+            margin: 0px;
+            margin-top: 10px;
+        }
+
+        .social-icons{
+            margin: 10px 0;
+            gap: 20px;
+        }
+
+        .contact-location{
+            margin: 0;
+        }
+
+    }
+
+    .contact-right{
+        padding: 0;
+
+        form{
+            width: 100%;
+            padding: 6px;
+
+            h2{
+                margin: 0;
+                font-size: 1.4rem;
+                margin-bottom: 10px;
+            }
+
+            .input{
+                margin: 0;
+            }
+
+            textarea{
+                height: 90px;
+            }
+        }
+    }
+  }
+
+  footer{
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 386px) and (max-width: 600px) {
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  
+  header{
+    width: 100vw;
+    padding: 0;
+    justify-content: space-between;
+    position: fixed;
+
+    .logo{
+        width: 50%;
+        padding: 10px;
+
+        .title h4{
+            font-size: 1.6rem;
+        }
+
+        .title i{
+            font-size: 1rem;
+        }
+
+        .title hr{
+            margin: 3px 0;
+        }
+
+        .social{
+            padding: 5px;
+        }
+
+        .social a i{
+            font-size: 1.4rem;
+        }
+    }
+  }
+
+  .nav-toggle{
+    display: block;
+    margin-right: 20px;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 152px;
+    height: fit-content;
+    right: 0;
+    display: none;
+    padding: 0;
+    width: 100vw;
+    text-align: left;
+    background: rgba(6, 184, 243, 0.856);
+  }
+
+  .nav-links li a {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .nav-links li{
+    width: 100%;
+    display: flex;
+    padding: 0;
+  }
+
+    .nav-links a.active,
+    .nav-links a:hover {
+        background: white;
+    color: #008080;
+    border-bottom: none;
+    }
+  /* hero section */
+
+  .container{
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-body{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -20px;
+    align-items: center;
+
+    .image{
+        width: 180px;
+        height: 180px;
+        margin-top: 0;
+    }
+
+    .hero-content h1{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .hero-content h4{
+        font-size:1.4rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .hero-content .buttons{
+        display: flex;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+
+        a.btn{
+            font-size: 1rem;
+            padding: 3px 10px;
+            font-weight: normal;
+        }
+    }
+  }
+
+  /* About Section */
+  
+  .about-section{
+    height: fit-content;
+    padding-top: 100px;
+  }
+
+  .about-content{
+    display: block;
+
+    .about-card{
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .img .text p{
+            font-size: 1rem;
+        }
+    }
+  }
+
+  .about-section .serve{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    box-shadow: none;
+    border: none;
+
+    .services{
+        width: 100%;
+        border: none;
+    }
+  }
+
+  /* Portfolio */
+
+  #projects{
+    height: fit-content;
+  }
+
+  #projects h2{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .project-container{
+    padding: 10px;
+  }
+
+  .project-cards{
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .project-card{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 340px;
+
+    .slide-swiper .swiper-wrapper .swiper-slide img{
+        object-fit: fill;
+    }
+  }
+
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
+  }
+
+  .project-card .card-body p{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.6rem;
+  }
+
+  /* contact section */
+
+  .contact-section {
+    height: fit-content;
+    padding: 0;
+    padding-top: 140px;
+  }
+
+  .contact-card{
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    
+    .contact-left {
+        clip-path: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;;
+
+        h2{
+            margin: 0px;
+            margin-top: 10px;
+        }
+
+        .social-icons{
+            margin: 10px 0;
+            gap: 20px;
+        }
+
+        .contact-location{
+            margin: 0;
+        }
+
+    }
+
+    .contact-right{
+        padding: 0;
+
+        form{
+            width: 100%;
+            padding: 20px;
+
+            h2{
+                margin: 0;
+                font-size: 1.4rem;
+                margin-bottom: 10px;
+            }
+
+            label{
+                font-size: 1rem;
+            }
+
+            .input{
+                margin-bottom: 5px;
+            }
+
+            textarea{
+                height: 90px;
+            }
+        }
+    }
+  }
+
+  footer{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+}
+
+/*========Tablets========*/
+
+@media screen and (min-width: 601px) and (max-width: 850px) {
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  
+  header{
+    padding: 5px;
+    text-align: center;
+
+    .logo{
+        width: 40%;
+    }
+
+    .logo .title{
+      margin-left: 10px;
+
+    }
+
+    .logo .title h4{
+      font-size: 1.6rem;
+    }
+
+    .logo .title i{
+      font-size: 1rem;
+    }
+  }
+
+  .nav-links {
+    gap: 15px;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .nav-links a {
+    font-size: 1.2rem;
+  }
+
+  /* hero section */
+
+  .container{
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-body{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -20px;
+    align-items: center;
+
+    .image{
+        width: 180px;
+        height: 180px;
+        margin-top: 0;
+    }
+
+    .hero-content h1{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    .hero-content h4{
+        font-size:1.6rem;
+    }
+
+    .hero-content p{
+        font-size:1.4rem;
+    }
+
+    .hero-content .buttons{
+        display: flex;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+
+        a.btn{
+            font-size: 1rem;
+            padding: 3px 10px;
+            font-weight: normal;
+        }
+    }
+  }
+
+  /* About Section */
+  
+  .about-section{
+    height: fit-content;
+    padding-top: 100px;
+  }
+
+  .about-content{
+    display: block;
+
+    .about-card{
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+
+        .img{
+            display: flex;
+            height: 280px;
+            padding: 5px;
+            align-items: center;
+
+            img{
+                width: 60%;
+                height: 100%;
+                border-radius: 8px;
+                margin: 0;
+            }
+
+            .text{
+                padding: 0 10px;
+            }
+        }
+
+        .img .text p{
+            font-size: 1rem;
+            height: fit-content;
+        }
+    }
+  }
+
+  .about-section .serve{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    box-shadow: none;
+    border: none;
+
+    .services{
+        width: 100%;
+        border: none;
+    }
+  }
+
+  /* Portfolio */
+
+  #projects{
+    height: fit-content;
+  }
+
+  #projects h2{
+    text-align: center;
+    margin-top: 120px;
+  }
+
+  .project-container{
+    padding: 10px;
+  }
+
+  .project-cards{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    width: 100%;
+    padding: 10px 0;
+    overflow: auto;
+  }
+
+  .project-card{
+    width: 300px;
+    margin-bottom: 20px;
+    height: 340px;
+
+  }
+
+  .project-card .card-body p{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.8rem;
+  }
+
+  /* contact section */
+
+  .contact-section {
+    height: fit-content;
+    padding: 0;
+    padding-top: 60px;
+  }
+
+  .contact-card{
+    display: block;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    
+    .contact-left {
+        clip-path: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;;
+
+        h2{
+            margin: 0px;
+            margin-top: 10px;
+        }
+
+        .social-icons{
+            margin: 10px 0;
+            gap: 20px;
+        }
+
+        .contact-location{
+            margin: 0;
+        }
+
+    }
+
+    .contact-right{
+        padding: 0;
+
+        form{
+            width: 100%;
+            padding: 20px;
+
+            h2{
+                margin: 0;
+                font-size: 1.4rem;
+                margin-bottom: 10px;
+            }
+
+            label{
+                font-size: 1rem;
+            }
+
+            .input{
+                margin-bottom: 5px;
+            }
+
+            textarea{
+                height: 90px;
+            }
+        }
+    }
+  }
+
+  footer{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 851px) and (max-width: 1032px){
+  body::-webkit-scrollbar{
+    display: none;
+  }
+  
+  header{
+    padding: 5px;
+    text-align: center;
+
+    .title{
+      margin-left: 10px;
+    }
+
+    .logo .title h4{
+      font-size: 2rem;
+    }
+  }
+
+  .nav-links {
+    gap: 15px;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .nav-links a {
+    font-size: 1.4rem;
+  }
+
+  /* hero section */
+
+  .container{
+    height: 100vh;
+    padding-top: 100px;
+  }
+
+  .hero-content{
+    width: fit-content;
+    margin-top: 80px;
+
+    h1{
+      font-size: 2rem;
+    }
+
+    h4{
+      font-size: 1.2rem;
+    }
+  }
+
+  .image{
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* About Section */
+
+  .about-section{
+    padding-top: 60px;
+    height: fit-content;
+  }
+
+  .about-content {
+
+    .about-card{
+        width: 45%;
+    }
+
+    .serve{
+        width: 50%;
+    }
+  }
+
+  /* projects */
+
+  #projects{
+    height: fit-content;
+  }
+
+  .project-container{
+    padding: 20px;
+    padding-top: 100px;
+  }
+
+  #projects h2{
+    text-align: center;
+  }
+
+  .project-cards { display: grid; grid-template-columns: repeat(2, 1fr); /* 2 per row on large screens */ gap: 20px; width: 90%; margin: 0 auto; align-items: stretch; }
+
+  /* contact section */
+
+  .contact-section{
+    padding-bottom: 30px;
+  }
+
+}
+
+/* Show error and hide other content when width < 298px */
+@media (width < 278px) {
+  .page {
+    display: block;
+  }
+
+  .content {
+    display: none;
+  }
+
+  footer{
+    font-size: 0.8rem;
+  }
+}
