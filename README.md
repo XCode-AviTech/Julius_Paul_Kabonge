@@ -1,52 +1,94 @@
-# Julius Paul Kabonge | Civil Engineer & Architectural Draftsman
+# Kabonge Julius Paul - Portfolio Website
 
-![Website](https://img.shields.io/badge/Website-Live-brightgreen) ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-purple?style=flat&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+A modern, responsive portfolio website showcasing architectural and civil engineering work with neon-themed design effects.
 
-> **Website belongs to [Julius Paul Kabonge](https://xcode-avitech.github.io/Julius_Paul_Kabonge) | Developed by [X~Code - AviTech Services](https://xcode-avitech.github.io/AviTech-Services/)**
+## 🚀 Features
 
----
-
-## 🌐 Live Website
-[Click here to visit the portfolio](https://xcode-avitech.github.io/Julius_Paul_Kabonge)
-
----
+- **Responsive Design**: Optimized for all device sizes with mobile-first approach
+- **Neon Theme**: Eye-catching cyan, purple, and pink neon color scheme
+- **Interactive Elements**: Smooth animations, hover effects, and glowing borders
+- **Project Showcase**: Image carousel for portfolio projects using Swiper.js
+- **Contact Integration**: Direct call and portfolio links
+- **Professional Layout**: Clean sections for hero, about, projects, and contact
 
 ## 🛠️ Technologies Used
-- **HTML5 & CSS3** – Responsive, semantic structure  
-- **Bootstrap 5** – Modern layout and components  
-- **JavaScript** – Interactivity and animations  
-- **Swiper.js** – Smooth image sliders for projects  
 
----
+- **HTML5**: Semantic markup and structure
+- **CSS3**: Custom properties, gradients, animations, and responsive design
+- **JavaScript**: Interactive navigation and preloader functionality
+- **Swiper.js**: Touch-enabled image carousel
+- **Bootstrap Icons**: Modern icon library
+- **Google Fonts**: Poppins font family for typography
 
-## 🏆 Portfolio Highlights
-- Modern residential designs (bungalows, multi-level buildings)  
-- Commercial architecture projects  
-- Resort and interior design projects  
-- On-site surveying and construction management  
+## 📁 Project Structure
 
----
+```
+kabonge/
+├── index.html          # Main HTML file
+├── styles.css          # Main stylesheet with neon effects
+├── script.js           # JavaScript for interactions
+├── assets/
+│   ├── images/         # Profile and project images
+│   ├── projects/       # Project screenshots
+└── README.md           # This file
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Any modern web browser (Chrome, Firefox, Safari, Edge)
+- No server required - runs locally
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://xcode-avitech.github.io/Julius_Paul_Kabonge.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd kabonge-portfolio
+   ```
+
+3. Open `index.html` in your web browser
+
+## 📱 Usage
+
+- **Navigation**: Use the hamburger menu on mobile devices
+- **Projects**: Swipe through project images or use navigation arrows
+- **Contact**: Click "Call Me" for direct phone contact or "My Portfolio" to view projects
+
+## 🎨 Customization
+
+### Colors
+Modify the CSS custom properties in `styles.css`:
+```css
+:root {
+  --neon-cyan: #00d4ff;
+  --neon-purple: #b537f2;
+  --neon-pink: #ff006e;
+  --dark-bg: #0a0e27;
+  --darker-bg: #050812;
+}
+```
+
+### Content
+Update personal information in `index.html`:
+- Hero section: Name, title, description
+- About section: Personal details
+- Projects: Add new project images to `assets/projects/`
+- Contact: Update contact information
 
 ## 📞 Contact
-Reach **Julius Paul Kabonge** via:  
-- **Phone:** [+256 774 753 801](tel:+256774753801)  
-- **WhatsApp:** [Click to chat](https://wa.me/256704510258)  
-- **Email:** [juliuskab@gmail.com](mailto:juliuskab@gmail.com)  
-- **Facebook:** [Julius Kabonge](https://www.facebook.com/julius.kabonge)  
-- **X (Twitter):** [@kabonge_julius](https://x.com/kabonge_julius)  
+
+**Eng. JULIUS PAUL KABONGE**
+- **Phone**: +256 774 753 801
+- **Profession**: Architectural Draftsman & Civil Engineer
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 📸 Screenshots
-![Portfolio Screenshot 1](./assets/screenshots/home.png)  
-![Portfolio Screenshot 2](./assets/screenshots/proj.png)  
-
----
-
-## 📄 About
-I am **Julius Paul Kabonge**, a dedicated Civil Engineer and Architectural Draftsman with a strong passion for designing functional, sustainable, and innovative spaces. My approach combines precision, efficiency and a client-focused mindset to ensure every project meets the highest standards of quality and functionality.
-
----
-
-## 🏷️ License
-This repository is for portfolio purposes. The website content belongs to **Julius Paul Kabonge**. Development credit goes to **X~Code - AviTech Services**.
+*Designed and developed with passion for showcasing architectural excellence.*
