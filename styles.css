@@ -6,16 +6,15 @@
 }
 
 :root {
-  --neon-cyan: #00d4ff;
-  --neon-purple: #b537f2;
-  --neon-pink: #ff006e;
-  --neon-green: #39ff14;
-  --dark-bg: #0a0e27;
-  --darker-bg: #050812;
+  --cyan: #00d4ff;
+  --blue: #0704cf;
+  --blue-light: #5d27f1;
+  --dark-bg: #070a1f;
+  --darker-bg: #040814;
   --card-bg: #1a1f3a;
   --text-light: #e0e0e0;
   --text-muted: #a0a0a0;
-  --border-color: #2a2f50;
+  --border-color: #050f53;
 }
 
 html {
@@ -232,12 +231,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, var(--neon-cyan), var(--neon-purple));
+  background: linear-gradient(180deg, var(--cyan), var(--blue));
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, var(--neon-purple), var(--neon-pink));
+  background: linear-gradient(180deg, var(--blue), var(--blue-light));
 }
 
 /* ============== PRELOADER ============== */
@@ -259,7 +258,7 @@ body {
 }
 
 .preloader-content p {
-  color: var(--neon-cyan);
+  color: var(--cyan);
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 20px;
@@ -282,17 +281,17 @@ body {
 }
 
 .loader-circle-11 .arc:nth-child(1) {
-  border-top-color: var(--neon-cyan);
+  border-top-color: var(--cyan);
   animation: spin 1s linear infinite;
 }
 
 .loader-circle-11 .arc:nth-child(2) {
-  border-right-color: var(--neon-purple);
+  border-right-color: var(--blue);
   animation: spin 1.5s linear infinite reverse;
 }
 
 .loader-circle-11 .arc:nth-child(3) {
-  border-bottom-color: var(--neon-pink);
+  border-bottom-color: var(--blue-light);
   animation: spin 2s linear infinite;
 }
 
@@ -323,8 +322,8 @@ body {
 
 .error {
   background: rgba(255, 0, 110, 0.1);
-  border: 2px solid var(--neon-pink);
-  color: var(--neon-pink);
+  border: 2px solid var(--blue-light);
+  color: var(--blue-light);
   padding: 20px 30px;
   border-radius: 12px;
   max-width: 350px;
@@ -355,7 +354,7 @@ header {
   padding: 1rem 2rem;
   background: linear-gradient(180deg, rgba(10, 14, 39, 0.95) 0%, rgba(5, 8, 18, 0.8) 100%);
   backdrop-filter: blur(10px);
-  border-bottom: 2px solid var(--neon-cyan);
+  border-bottom: 2px solid var(--cyan);
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
   z-index: 1000;
   display: flex;
@@ -372,7 +371,7 @@ header {
 .logo .title h4 {
   font-size: 1.5rem;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+  background: linear-gradient(135deg, var(--cyan), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -381,7 +380,7 @@ header {
 
 .logo .title i {
   font-size: 0.8rem;
-  color: var(--neon-cyan);
+  color: var(--cyan);
   font-style: italic;
   display: block;
 }
@@ -404,8 +403,8 @@ header {
 }
 
 .social a:hover {
-  color: var(--neon-cyan);
-  text-shadow: 0 0 10px var(--neon-cyan);
+  color: var(--cyan);
+  text-shadow: 0 0 10px var(--cyan);
   transform: translateY(-3px);
 }
 
@@ -421,14 +420,14 @@ nav {
 .nav-toggle button {
   background: none;
   border: none;
-  color: var(--neon-cyan);
+  color: var(--cyan);
   font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .nav-toggle button:hover {
-  text-shadow: 0 0 10px var(--neon-cyan);
+  text-shadow: 0 0 10px var(--cyan);
 }
 
 .nav-links {
@@ -454,14 +453,14 @@ nav {
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-purple));
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
   transition: width 0.3s ease;
 }
 
 .nav-links li a:hover,
 .nav-links li a.active {
-  color: var(--neon-cyan);
-  text-shadow: 0 0 10px var(--neon-cyan);
+  color: var(--cyan);
+  text-shadow: 0 0 10px var(--cyan);
 }
 
 .nav-links li a:hover::after,
@@ -571,7 +570,7 @@ nav {
   font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink));
+  background: linear-gradient(135deg, var(--cyan), var(--blue), var(--blue-light));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -579,7 +578,7 @@ nav {
 }
 
 .hero-content h4 {
-  color: var(--neon-cyan);
+  color: var(--cyan);
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
@@ -613,29 +612,29 @@ nav {
 
 .buttons .btn-primary,
 .buttons a:first-child {
-  color: var(--neon-cyan);
-  border-color: var(--neon-cyan);
-  box-shadow: 0 0 10px var(--neon-cyan), inset 0 0 10px rgba(0, 212, 255, 0.1);
+  color: var(--cyan);
+  border-color: var(--cyan);
+  box-shadow: 0 0 10px var(--cyan), inset 0 0 10px rgba(0, 212, 255, 0.1);
 }
 
 .buttons .btn-primary:hover,
 .buttons a:first-child:hover {
   background: rgba(0, 212, 255, 0.1);
-  box-shadow: 0 0 20px var(--neon-cyan), inset 0 0 20px rgba(0, 212, 255, 0.2);
+  box-shadow: 0 0 20px var(--cyan), inset 0 0 20px rgba(0, 212, 255, 0.2);
   transform: translateY(-3px);
 }
 
 .buttons .btn-outline-primary,
 .buttons a:last-child {
-  color: var(--neon-purple);
-  border-color: var(--neon-purple);
-  box-shadow: 0 0 10px var(--neon-purple), inset 0 0 10px rgba(181, 55, 242, 0.1);
+  color: var(--blue);
+  border-color: var(--blue);
+  box-shadow: 0 0 10px var(--blue), inset 0 0 10px rgba(181, 55, 242, 0.1);
 }
 
 .buttons .btn-outline-primary:hover,
 .buttons a:last-child:hover {
   background: rgba(181, 55, 242, 0.1);
-  box-shadow: 0 0 20px var(--neon-purple), inset 0 0 20px rgba(181, 55, 242, 0.2);
+  box-shadow: 0 0 20px var(--blue), inset 0 0 20px rgba(181, 55, 242, 0.2);
   transform: translateY(-3px);
 }
 
@@ -664,14 +663,14 @@ nav {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--neon-cyan);
-  box-shadow: 0 0 30px var(--neon-cyan), 0 0 60px rgba(0, 212, 255, 0.3);
+  border: 3px solid var(--cyan);
+  box-shadow: 0 0 30px var(--cyan), 0 0 60px rgba(0, 212, 255, 0.3);
   animation: glow-pulse 3s ease-in-out infinite;
 }
 
 @keyframes glow-pulse {
-  0%, 100% { box-shadow: 0 0 30px var(--neon-cyan), 0 0 60px rgba(0, 212, 255, 0.3); }
-  50% { box-shadow: 0 0 40px var(--neon-purple), 0 0 80px rgba(181, 55, 242, 0.4); }
+  0%, 100% { box-shadow: 0 0 30px var(--cyan), 0 0 60px rgba(0, 212, 255, 0.3); }
+  50% { box-shadow: 0 0 40px var(--blue), 0 0 80px rgba(181, 55, 242, 0.4); }
 }
 
 /* ============== ABOUT SECTION ============== */
@@ -684,7 +683,7 @@ nav {
 .about-section h2 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple));
+  background: linear-gradient(135deg, var(--cyan), var(--blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -721,7 +720,7 @@ nav {
 }
 
 .about-card:hover {
-  border-color: var(--neon-cyan);
+  border-color: var(--cyan);
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
   transform: translateY(-5px);
 }
@@ -736,7 +735,7 @@ nav {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 1.5rem;
-  border: 2px solid var(--neon-cyan);
+  border: 2px solid var(--cyan);
 }
 
 .about-card .text {
@@ -764,7 +763,7 @@ nav {
 }
 
 .services h4 {
-  color: var(--neon-cyan);
+  color: var(--cyan);
   font-size: 1.8rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -779,7 +778,7 @@ nav {
 
 .service-card {
   background: linear-gradient(135deg, rgba(181, 55, 242, 0.05), rgba(0, 212, 255, 0.05));
-  border: 2px solid var(--neon-purple);
+  border: 2px solid var(--blue);
   border-radius: 12px;
   padding: 1.5rem;
   transition: all 0.3s ease;
@@ -788,7 +787,7 @@ nav {
 }
 
 .service-card:hover {
-  border-color: var(--neon-cyan);
+  border-color: var(--cyan);
   background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), rgba(181, 55, 242, 0.1));
   box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
   transform: translateY(-5px);
@@ -796,7 +795,7 @@ nav {
 
 .service-card i {
   font-size: 2.5rem;
-  color: var(--neon-cyan);
+  color: var(--cyan);
   margin-bottom: 1rem;
 }
 
@@ -819,7 +818,7 @@ nav {
 }
 
 .why-h4 {
-  color: var(--neon-purple);
+  color: var(--blue);
   font-size: 1.8rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -846,7 +845,7 @@ nav {
 .project-container h2 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  background: linear-gradient(135deg, var(--neon-pink), var(--neon-cyan));
+  background: linear-gradient(135deg, var(--blue-light), var(--cyan));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -871,8 +870,8 @@ nav {
 }
 
 .project-card:hover {
-  border-color: var(--neon-pink);
-  box-shadow: 0 0 30px rgba(255, 0, 110, 0.3);
+  border-color: var(--blue-light);
+  box-shadow: 0 0 30px rgba(89, 0, 255, 0.3);
   transform: translateY(-10px);
 }
 
@@ -894,13 +893,13 @@ nav {
   background: rgba(0, 0, 0, 0.7);
   padding: 0.7rem 1rem;
   border-radius: 50px;
-  border: 1px solid var(--neon-cyan);
+  border: 1px solid var(--cyan);
   backdrop-filter: blur(5px);
   z-index: 10;
 }
 
 .location p {
-  color: var(--neon-cyan);
+  color: var(--cyan);
   margin: 0;
   font-size: 0.9rem;
   display: flex;
@@ -912,27 +911,27 @@ nav {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.829);
   padding: 0.7rem 1rem;
   border-radius: 50px;
-  border: 1px solid var(--neon-purple);
+  border: 1px solid var(--blue);
   backdrop-filter: blur(5px);
   z-index: 10;
 }
 
 .photo-count i {
-  color: var(--neon-purple);
+  color: var(--blue);
 }
 
 .photo-count span {
-  color: var(--neon-purple);
+  color: var(--text-light);
   font-weight: 600;
   margin-left: 0.5rem;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: var(--neon-cyan) !important;
+  color: var(--cyan) !important;
   width: 40px !important;
   height: 40px !important;
   background: none;
@@ -940,11 +939,6 @@ nav {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  background: rgba(0, 212, 255, 0.5) !important;
 }
 
 /* ============== CONTACT SECTION ============== */
@@ -955,7 +949,7 @@ nav {
 
 .contact-card {
   background: linear-gradient(135deg, rgba(0, 212, 255, 0.05), rgba(181, 55, 242, 0.05));
-  border: 2px solid var(--neon-cyan);
+  border: 2px solid var(--cyan);
   border-radius: 20px;
   padding: 4rem 2rem;
   max-width: 600px;
@@ -965,7 +959,7 @@ nav {
 }
 
 .contact-card h2 {
-  color: var(--neon-cyan);
+  color: var(--cyan);
   font-size: 2.5rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -989,17 +983,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid var(--neon-cyan);
+  border: 2px solid var(--cyan);
   border-radius: 50%;
   transition: all 0.3s ease;
-  color: var(--neon-cyan);
+  color: var(--cyan);
 }
 
 .contact-card .social a:hover {
-  border-color: var(--neon-pink);
+  border-color: var(--blue-light);
   background: rgba(255, 0, 110, 0.1);
-  box-shadow: 0 0 20px var(--neon-pink);
-  color: var(--neon-pink);
+  box-shadow: 0 0 20px var(--blue-light);
+  color: var(--blue-light);
 }
 
 .contact-location {
@@ -1022,14 +1016,14 @@ footer p {
 }
 
 footer a {
-  color: var(--neon-cyan);
+  color: var(--cyan);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
 footer a:hover {
-  color: var(--neon-purple);
-  text-shadow: 0 0 10px var(--neon-purple);
+  color: var(--blue);
+  text-shadow: 0 0 10px var(--blue);
 }
 
 /* ============== RESPONSIVE ============== */
@@ -1049,7 +1043,7 @@ footer a:hover {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 2rem 2rem;
-    border-bottom: 2px solid var(--neon-cyan);
+    border-bottom: 2px solid var(--cyan);
     z-index: 999;
     list-style: none;
     width: 100vw;
